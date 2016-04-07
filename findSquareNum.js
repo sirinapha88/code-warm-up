@@ -1,6 +1,6 @@
 function findSquareNum(num){
-	var square = num / 4;
-	return(Math.sqrt(num) === square);
+	
+	return(Math.sqrt(num)%1 === 0);
 }
 
 console.log(findSquareNum(16));
