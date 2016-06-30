@@ -38,9 +38,11 @@ function convertRomanNumeral(input) {
 	return sum;
 }
 
-module.exports = {
-    convertRomanNumeral: convertRomanNumeral
-};
+console.log(convertRomanNumeral(24));
+
+// module.exports = {
+//     convertRomanNumeral: convertRomanNumeral
+// };
 
 
 // function testConvertRomanNumerals(){
