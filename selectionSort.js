@@ -2,6 +2,8 @@
 
 // It's the way to find the smallest position and swap it with the first position and so on.
 
+// it's O(N²)
+
 function selectionSort(arr){
   for(var i = 0; i < arr.length; i++){
     //set min to the current iteration of i
