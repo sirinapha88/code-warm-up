@@ -8,7 +8,7 @@
       characterCount[c] = 1;
     } 
     else {
-      characterCount[c] += 1;
+      characterCount[c]++;
     }
   }
   return characterCount;
